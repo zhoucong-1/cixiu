@@ -48,13 +48,13 @@ const stories = [
     id: 1,
     title: '丝绸之路上的文化融合',
     content: '哈密刺绣作为丝绸之路上的重要文化载体，融合了东西方文化元素，形成了独特的艺术风格。',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Silk%20Road%20cultural%20fusion%20ancient%20trade%20route%20caravan%20textiles%20East%20West%20exchange&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format',
   },
   {
     id: 2,
     title: '民族身份的象征',
     content: '刺绣技艺承载着维吾尔族人民的文化记忆，是民族身份认同的重要标志。',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=ethnic%20identity%20symbol%20Uyghur%20people%20traditional%20costume%20embroidery%20cultural%20pride&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
   },
 ]
 
@@ -62,17 +62,17 @@ const values = [
   {
     title: '历史价值',
     description: '记录和传承了千百年的文化传统，是活态的历史见证',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=historical%20value%20ancient%20embroidery%20manuscripts%20old%20textile%20fragments%20archaeological%20finds&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop&auto=format',
   },
   {
     title: '文化价值',
     description: '体现了多元文化的融合，展现了中华民族文化的多样性',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=cultural%20value%20diverse%20ethnic%20traditions%20fusion%20of%20embroidery%20styles%20multicultural&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=400&h=300&fit=crop&auto=format',
   },
   {
     title: '艺术价值',
     description: '精湛的技艺和独特的审美，具有极高的艺术欣赏价值',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=artistic%20value%20exquisite%20embroidery%20masterpiece%20fine%20stitchwork%20museum%20quality%20art&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=400&h=300&fit=crop&auto=format',
   },
 ]
 </script>

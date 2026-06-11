@@ -108,9 +108,9 @@
               <h3>商品详情</h3>
               <p>{{ product.description }}</p>
               <div class="detail-images">
-                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidered%20product%20detail%20photo%201%20close-up%20of%20stitching%20quality%20craftsmanship&image_size=landscape_16_9" alt="商品详情图1" class="detail-image" />
-                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidered%20product%20detail%20photo%202%20showing%20pattern%20design%20full%20view&image_size=landscape_16_9" alt="商品详情图2" class="detail-image" />
-                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidered%20product%20detail%20photo%203%20usage%20scene%20lifestyle%20display&image_size=landscape_16_9" alt="商品详情图3" class="detail-image" />
+                <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&h=500&fit=crop&auto=format" alt="商品详情图1" class="detail-image" />
+                <img src="https://images.unsplash.com/photo-1605106702734-205df224ecce?w=800&h=500&fit=crop&auto=format" alt="商品详情图2" class="detail-image" />
+                <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&h=500&fit=crop&auto=format" alt="商品详情图3" class="detail-image" />
               </div>
             </div>
 
@@ -174,10 +174,10 @@ const isFavorite = ref(false)
 const activeTab = ref('detail')
 
 const productImages = [
-  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?traditional%20floral%20embroidery%20product%20main%20image%20front%20view%20showcase&image_size=landscape_4_3',
-  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidery%20product%20side%20angle%20view%20showing%20edges%20and%20detail&image_size=landscape_4_3',
-  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidery%20product%20back%20view%20showing%20full%20pattern%20coverage&image_size=landscape_4_3',
-  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidery%20product%20detail%20shot%20texture%20and%20material%20close-up&image_size=landscape_4_3',
+  'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
+  'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
+  'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format',
+  'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
 ]
 
 const product = {
@@ -200,7 +200,7 @@ const product = {
       options: ['红色', '蓝色', '金色'],
     },
   ],
-  image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?main%20product%20image%20traditional%20floral%20embroidered%20work%20high%20quality&image_size=landscape_4_3',
+  image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
 }
 
 const selectedSpecs = reactive({
@@ -232,8 +232,8 @@ const reviews = [
 ]
 
 const relatedProducts = [
-  { id: 2, title: '现代几何图案', price: 399, image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?related%20modern%20geometric%20embroidery%20product%20alternative%20choice&image_size=landscape_4_3' },
-  { id: 3, title: '融合风格作品', price: 499, image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?related%20fusion%20style%20embroidery%20product%20recommended%20item&image_size=landscape_4_3' },
+  { id: 2, title: '现代几何图案', price: 399, image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format' },
+  { id: 3, title: '融合风格作品', price: 499, image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format' },
 ]
 
 const decreaseQuantity = () => {

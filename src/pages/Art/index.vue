@@ -96,7 +96,7 @@ const patterns = [
     name: '花卉图案',
     category: '自然',
     meaning: '象征生命力和美好愿望',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=traditional%20Chinese%20floral%20embroidery%20pattern%20peonies%20lotuses%20colorful%20botanical%20motifs&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
     description: '传统花卉图案，寓意繁荣昌盛',
   },
   {
@@ -104,7 +104,7 @@ const patterns = [
     name: '几何图案',
     category: '抽象',
     meaning: '代表秩序和和谐',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?geometric%20embroidery%20pattern%20symmetric%20diamond%20shapes%20tribal%20design&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
     description: '精美的几何纹样，体现对称美',
   },
   {
@@ -112,7 +112,7 @@ const patterns = [
     name: '动物图案',
     category: '自然',
     meaning: '象征吉祥和力量',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?animal%20embroidery%20pattern%20traditional%20birds%20butterflies%20auspicious&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format',
     description: '传统动物纹样，寓意吉祥如意',
   },
 ]
@@ -123,21 +123,21 @@ const techniques = [
     name: '平针绣',
     description: '最基础的刺绣针法，适合大面积填充',
     difficulty: '初级',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=flat%20stitch%20embroidery%20technique%20basic%20satin%20stitch%20close-up%20needlework%20tutorial&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
   },
   {
     id: 2,
     name: '锁边绣',
     description: '用于边缘装饰，形成精美的轮廓',
     difficulty: '中级',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=buttonhole%20stitch%20embroidery%20technique%20edge%20decoration%20detailed%20close-up%20craft&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format',
   },
   {
     id: 3,
     name: '盘金绣',
     description: '使用金线盘绕，形成华丽的装饰效果',
     difficulty: '高级',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=gold%20thread%20embroidery%20technique%20luxurious%20metallic%20stitching%20ornate%20decorative&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
   },
 ]
 </script>

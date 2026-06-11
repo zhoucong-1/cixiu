@@ -148,7 +148,7 @@ const worksData: Record<string, any> = {
     style: '优雅',
     rating: 4.8,
     favorites: 156,
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?traditional%20floral%20embroidery%20masterpiece%20close-up%20fine%20details%20exquisite%20stitchwork&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
     details:
       '这件作品采用了传统的花卉图案设计，运用了多种传统针法，展现了哈密刺绣的精湛技艺。作品色彩搭配和谐，层次分明，具有很高的艺术价值和收藏价值。',
     reviews: [
@@ -176,7 +176,7 @@ const worksData: Record<string, any> = {
     style: '简约',
     rating: 4.6,
     favorites: 98,
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?modern%20geometric%20embroidery%20artwork%20clean%20lines%20contemporary%20aesthetic%20design&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
     details: '这件作品将传统刺绣技艺与现代几何设计相结合，创造出独特的视觉效果。',
     reviews: [],
   },
@@ -188,7 +188,7 @@ const worksData: Record<string, any> = {
     style: '鲜艳',
     rating: 4.9,
     favorites: 203,
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?fusion%20style%20embroidery%20piece%20creative%20mix%20of%20traditional%20and%20modern%20elements&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format',
     details: '这件作品完美融合了传统与现代元素，展现了创新的设计理念。',
     reviews: [],
   },
@@ -200,8 +200,8 @@ onMounted(() => {
 
   // 加载相关作品
   relatedWorks.value = [
-    { id: 2, title: '现代几何设计', rating: 4.6, image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?related%20modern%20geometric%20embroidery%20work%20alternative%20design%20option&image_size=landscape_4_3' },
-    { id: 3, title: '融合风格作品', rating: 4.9, image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?related%20fusion%20embroidery%20artwork%20similar%20style%20recommendation&image_size=landscape_4_3' },
+    { id: 2, title: '现代几何设计', rating: 4.6, image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format' },
+    { id: 3, title: '融合风格作品', rating: 4.9, image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format' },
   ]
 })
 

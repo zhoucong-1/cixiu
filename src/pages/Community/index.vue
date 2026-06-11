@@ -170,7 +170,7 @@ const liveStreams = [
     title: '基础针法教学',
     time: '2024-01-20 14:00',
     description: '讲解基础刺绣针法，适合初学者',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image=basic%20stitch%20embroidery%20tutorial%20live%20stream%20teaching%20online%20class%20video&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
     isLive: false,
   },
   {
@@ -178,7 +178,7 @@ const liveStreams = [
     title: '传统图案设计',
     time: '直播中',
     description: '现场演示传统图案的设计与绣制',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?traditional%20pattern%20design%20live%20broadcast%20artisan%20demonstrating%20real-time&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format',
     isLive: true,
   },
 ]

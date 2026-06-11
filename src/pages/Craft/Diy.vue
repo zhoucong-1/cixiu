@@ -5,7 +5,7 @@
         <!-- 顶部主视觉 -->
         <section class="diy-hero">
           <div class="hero-image">
-            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=DIY%20embroidery%20kit%20beginner%20package%20complete%20set%20colorful%20threads%20fabric%20hoop%20needles&image_size=landscape_16_9" alt="DIY刺绣体验包" />
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=400&fit=crop&auto=format" alt="DIY刺绣体验包" />
           </div>
           <div class="hero-overlay">
             <h1 class="page-title">DIY 体验包</h1>
@@ -16,7 +16,7 @@
         <section class="diy-intro">
           <div class="diy-card">
             <div class="card-image">
-              <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=DIY%20embroidery%20kit%20contents%20pre-printed%20fabric%20colorful%20threads%20scissors%20needles%20instructions&image_size=landscape_16_9" alt="体验包内容" />
+              <img src="https://images.unsplash.com/photo-1586075016320-1d14d0c89842?w=500&h=300&fit=crop&auto=format" alt="体验包内容" />
             </div>
             <h2 class="section-title">体验包内容</h2>
             <ul class="diy-list">
@@ -28,7 +28,7 @@
           </div>
           <div class="diy-card">
             <div class="card-image">
-              <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=embroidery%20experience%20workshop%20person%20learning%20to%20stitch%20hands-on%20crafting%20fun&image_size=landscape_16_9" alt="刺绣体验" />
+              <img src="https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=500&h=300&fit=crop&auto=format" alt="刺绣体验" />
             </div>
             <h2 class="section-title">适合人群</h2>
             <p class="diy-text">
@@ -42,15 +42,15 @@
           <h2 class="gallery-title">完成效果参考</h2>
           <div class="gallery-grid">
             <div class="gallery-item">
-              <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=finished%20flower%20pattern%20embroidery%20DIY%20project%20colorful%20roses%20peonies%20beautiful%20result&image_size=landscape_4_3" alt="花卉图案成品" />
+              <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=350&h=250&fit=crop&auto=format" alt="花卉图案成品" />
               <span class="gallery-label">花卉图案</span>
             </div>
             <div class="gallery-item">
-              <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=finished%20geometric%20pattern%20embroidery%20symmetric%20designs%20modern%20look%20DIY%20completed&image_size=landscape_4_3" alt="几何纹样成品" />
+              <img src="https://images.unsplash.com/photo-1605106702734-205df224ecce?w=350&h=250&fit=crop&auto=format" alt="几何纹样成品" />
               <span class="gallery-label">几何纹样</span>
             </div>
             <div class="gallery-item">
-              <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=finished%20animal%20pattern%20embroidery%20birds%20butterflies%20traditional%20motifs%20handmade%20art&image_size=landscape_4_3" alt="动物图案成品" />
+              <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=350&h=250&fit=crop&auto=format" alt="动物图案成品" />
               <span class="gallery-label">动物图案</span>
             </div>
           </div>

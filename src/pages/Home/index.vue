@@ -140,19 +140,19 @@ const carouselSlides = [
   {
     title: '哈密刺绣数字图谱',
     description: '传承千年技艺，展现文化魅力',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chinese%20traditional%20Hami%20embroidery%20artwork%20display%20colorful%20floral%20patterns%20on%20silk%20fabric%20elegant%20cultural%20heritage&image_size=landscape_16_9',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=450&fit=crop&auto=format',
     link: '/about',
   },
   {
     title: '春季新品限时优惠',
     description: '精选刺绣作品，购买即享8折优惠',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=spring%20new%20collection%20handmade%20embroidered%20products%20beautiful%20flowers%20and%20geometric%20patterns%20Uyghur%20style&image_size=landscape_16_9',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&h=450&fit=crop&auto=format',
     link: '/shop',
   },
   {
     title: '在线学习课程',
     description: '跟随传承人学习传统刺绣技艺',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=online%20embroidery%20learning%20course%20hands%20sewing%20with%20colorful%20threads%20teaching%20traditional%20crafts&image_size=landscape_16_9',
+    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=800&h=450&fit=crop&auto=format',
     link: '/craft',
   },
 ]
@@ -167,20 +167,20 @@ const recommendArticles = [
   {
     title: '哈密刺绣的历史源流',
     desc: '探索新疆维吾尔族刺绣的起源与发展历程',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=ancient%20Hami%20embroidery%20historical%20artifacts%20traditional%20textile%20museum%20display%20Silk%20Road%20culture&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format',
     badge: '热门',
     link: '/history',
   },
   {
     title: '传统图案的寓意解读',
     desc: '深入了解传统刺绣图案的文化内涵',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=close-up%20of%20traditional%20Chinese%20embroidery%20pattern%20symbolic%20meaning%20intricate%20stitchwork%20detail&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
     link: '/art',
   },
   {
     title: '制作工艺详解',
     desc: '学习传统刺绣的制作流程与技巧',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=embroidery%20making%20process%20step%20by%20step%20tools%20and%20materials%20needlework%20craftsmanship&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
     link: '/craft',
   },
 ]
@@ -189,21 +189,21 @@ const recommendWorks = [
   {
     title: '传统花卉图案',
     desc: '精美的传统花卉刺绣作品',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=traditional%20flower%20embroidery%20artwork%20colorful%20peonies%20and%20lotus%20patterns%20on%20silk%20Chinese%20style&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
     rating: 4.8,
     link: '/works/1',
   },
   {
     title: '现代几何设计',
     desc: '融合现代设计理念的创新作品',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=modern%20geometric%20design%20embroidery%20contemporary%20patterns%20symmetric%20shapes%20minimalist%20textile%20art&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
     rating: 4.6,
     link: '/works/2',
   },
   {
     title: '融合风格作品',
     desc: '传统与现代完美结合',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fusion%20style%20embroidery%20combining%20traditional%20and%20modern%20elements%20innovative%20textile%20design&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format',
     rating: 4.9,
     link: '/works/3',
   },
@@ -213,7 +213,7 @@ const recommendProducts = [
   {
     title: '传统花卉刺绣作品',
     desc: '手工制作，工艺精湛',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=traditional%20flower%20embroidery%20product%20handmade%20decorative%20pillow%20or%20wall%20hanging%20gift&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
     price: 299,
     badge: '热销',
     link: '/shop/product/1',
@@ -221,7 +221,7 @@ const recommendProducts = [
   {
     title: '优质刺绣丝线套装',
     desc: '24色真丝线，色彩鲜艳持久',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=premium%20embroidery%20silk%20thread%20set%2024%20vibrant%20colors%20spools%20arranged%20neatly%20for%20crafting&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1586075016320-1d14d0c89842?w=600&h=400&fit=crop&auto=format',
     price: 89,
     badge: '新品',
     link: '/shop/product/4',
@@ -229,7 +229,7 @@ const recommendProducts = [
   {
     title: '定制刺绣服务',
     desc: '根据您的需求定制专属作品',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=custom%20embroidery%20service%20personalized%20name%20or%20design%20tailored%20handmade%20textile%20product&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format',
     price: 599,
     link: '/shop/product/3',
   },
@@ -262,7 +262,7 @@ const latestNews = [
     excerpt: '哈密刺绣技艺正式入选国家级非物质文化遗产代表性项目名录...',
     category: '行业动态',
     date: '2025-05-15',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=intangible%20cultural%20heritage%20ceremony%20Hami%20embroidery%20recognition%20award%20official%20event&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format',
   },
   {
     id: 2,
@@ -270,7 +270,7 @@ const latestNews = [
     excerpt: '一年一度的哈密刺绣文化节将于下月举行...',
     category: '活动信息',
     date: '2024-01-10',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Hami%20embroidery%20cultural%20exhibition%20showcase%20beautiful%20textile%20works%20display%20hall&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
   },
   {
     id: 3,
@@ -278,7 +278,7 @@ const latestNews = [
     excerpt: '国家出台新的非物质文化遗产保护政策，加大对传统手工艺的扶持力度。',
     category: '政策法规',
     date: '2024-01-05',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=cultural%20heritage%20protection%20policy%20document%20traditional%20crafts%20preservation%20government%20support&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
   },
   {
     id: 4,
@@ -286,7 +286,7 @@ const latestNews = [
     excerpt: '春季新品刺绣作品限时优惠，购买即享8折优惠...',
     category: '促销信息',
     date: '2024-01-01',
-    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=spring%20new%20products%20embroidered%20items%20seasonal%20promotion%20colorful%20handmade%20goods&display&image_size=landscape_4_3',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
   },
 ]
 
@@ -302,7 +302,7 @@ const prevSlide = () => {
 
 const handleSlideImageError = (e: Event) => {
   const img = e.target as HTMLImageElement
-  img.src = 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Hami%20embroidery%20digital%20atlas%20banner%20traditional%20Chinese%20textile%20art&image_size=landscape_16_9'
+  img.src = 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&h=450&fit=crop&auto=format'
 }
 
 const handleRecommendClick = (item: any) => {
