@@ -7,14 +7,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+    "preview": "npm run build && wrangler dev",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "vue": "^3.4.0",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.40.1",
     "@types/node": "^20.10.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
@@ -24,11 +26,11 @@
     "eslint": "^8.45.0",
     "eslint-plugin-vue": "^9.19.0",
     "typescript": "^5.2.2",
-    "vite": "6.0.7",
-    "vue-tsc": "^1.8.27"
+    "vite": "^6.1.0",
+    "vue-tsc": "^1.8.27",
+    "wrangler": "^4.99.0"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "4.22.4"
   }
 }
-
