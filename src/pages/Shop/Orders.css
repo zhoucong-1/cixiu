@@ -1,0 +1,292 @@
+/**
+ * Orders 订单列表页面样式
+ */
+
+.orders-page {
+  padding: var(--spacing-5xl) 0;
+  background-color: var(--color-bg-page);
+  min-height: calc(100vh - var(--header-height) - 200px);
+}
+
+.page-header {
+  margin-bottom: var(--spacing-5xl);
+}
+
+.page-title {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+}
+
+/* 订单筛选 */
+.order-filters {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-3xl);
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: var(--spacing-md) var(--spacing-2xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-body);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: var(--transition-base);
+}
+
+.filter-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.filter-btn.active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+}
+
+/* 订单列表 */
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3xl);
+}
+
+.order-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border-light);
+  overflow: hidden;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-lg) var(--spacing-2xl);
+  background-color: var(--color-bg-page);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.order-info {
+  display: flex;
+  gap: var(--spacing-lg);
+  align-items: center;
+}
+
+.order-number {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+}
+
+.order-date {
+  font-size: var(--font-size-body-small);
+  color: var(--color-text-tertiary);
+}
+
+.order-status {
+  padding: var(--spacing-xs) var(--spacing-lg);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-body-small);
+  font-weight: var(--font-weight-medium);
+}
+
+.order-status.pending {
+  background-color: var(--color-warning-bg);
+  color: var(--color-warning);
+}
+
+.order-status.paid,
+.order-status.shipping {
+  background-color: var(--color-info-bg);
+  color: var(--color-info);
+}
+
+.order-status.completed {
+  background-color: var(--color-success-bg);
+  color: var(--color-success);
+}
+
+/* 订单商品 */
+.order-items {
+  padding: var(--spacing-2xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.item-image {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background-color: var(--color-bg-page);
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+
+.item-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.item-title {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+}
+
+.item-spec {
+  font-size: var(--font-size-body-small);
+  color: var(--color-text-tertiary);
+}
+
+.item-quantity {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  min-width: 60px;
+  text-align: center;
+}
+
+.item-price {
+  font-size: var(--font-size-body-large);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+  min-width: 100px;
+  text-align: right;
+}
+
+/* 订单底部 */
+.order-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-lg) var(--spacing-2xl);
+  background-color: var(--color-bg-page);
+  border-top: 1px solid var(--color-border-light);
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+}
+
+.order-total {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+}
+
+.total-amount {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}
+
+.order-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.btn-secondary {
+  padding: var(--spacing-md) var(--spacing-2xl);
+  background-color: transparent;
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-body);
+  cursor: pointer;
+  transition: var(--transition-base);
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn-primary {
+  padding: var(--spacing-md) var(--spacing-2xl);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-body);
+  cursor: pointer;
+  transition: var(--transition-base);
+  position: relative;
+  z-index: 1;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-primary:active {
+  background-color: var(--color-primary-dark);
+  outline: none !important;
+  box-shadow: none !important;
+  transform: translateY(1px);
+}
+
+.btn-primary:active:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary:focus:not(:active) {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.btn-link {
+  padding: var(--spacing-md) var(--spacing-2xl);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: var(--font-size-body);
+  transition: var(--transition-base);
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.empty-orders {
+  text-align: center;
+  padding: var(--spacing-6xl) 0;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .orders-page {
+    padding: var(--spacing-3xl) 0;
+  }
+
+  .order-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+  }
+
+  .order-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .order-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+

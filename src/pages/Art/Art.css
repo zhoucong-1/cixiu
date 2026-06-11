@@ -1,0 +1,332 @@
+/**
+ * Art 艺术特色页面样式
+ */
+
+.art-page {
+  padding: var(--spacing-5xl) 0;
+  background-color: var(--color-bg-page);
+  min-height: calc(100vh - var(--header-height) - 200px);
+}
+
+/* 页面标题 */
+.page-header {
+  text-align: center;
+  margin-bottom: var(--spacing-5xl);
+}
+
+.page-title {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.page-subtitle {
+  font-size: var(--font-size-body-large);
+  color: var(--color-text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* 标签切换 */
+.tab-switcher {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-5xl);
+}
+
+.tab-btn {
+  padding: var(--spacing-md) var(--spacing-3xl);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition-base);
+}
+
+.tab-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.tab-btn.active {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+}
+
+/* 图案库 */
+.patterns-section {
+  margin-bottom: var(--spacing-6xl);
+}
+
+.section-title {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-5xl);
+  text-align: center;
+}
+
+.patterns-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-3xl);
+}
+
+.pattern-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  border: 1px solid var(--color-border-light);
+  transition: var(--transition-base);
+}
+
+.pattern-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.pattern-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.pattern-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pattern-content {
+  padding: var(--spacing-2xl);
+}
+
+.pattern-category {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: var(--color-bg-page);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-body-small);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.pattern-name {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.pattern-description {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-body);
+  margin-bottom: var(--spacing-md);
+}
+
+.pattern-meaning {
+  font-size: var(--font-size-body);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background-color: var(--color-gold-light);
+  border-radius: var(--radius-sm);
+}
+
+.pattern-actions {
+  margin-top: var(--spacing-lg);
+}
+
+/* 针法技艺 */
+.techniques-section {
+  margin-bottom: var(--spacing-6xl);
+}
+
+.techniques-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-3xl);
+}
+
+.technique-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  border: 1px solid var(--color-border-light);
+  transition: var(--transition-base);
+}
+
+.technique-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.technique-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.technique-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.technique-content {
+  padding: var(--spacing-2xl);
+}
+
+.technique-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.technique-name {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.difficulty-badge {
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: var(--font-size-body-small);
+  font-weight: var(--font-weight-medium);
+  border-radius: var(--radius-sm);
+}
+
+.difficulty-初级 {
+  background-color: var(--color-success-bg);
+  color: var(--color-success);
+}
+
+.difficulty-中级 {
+  background-color: var(--color-warning-bg);
+  color: var(--color-warning);
+}
+
+.difficulty-高级 {
+  background-color: var(--color-error-bg);
+  color: var(--color-error);
+}
+
+.technique-description {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-body);
+  margin-bottom: var(--spacing-lg);
+}
+
+.technique-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+/* 按钮样式 */
+.btn-primary {
+  display: inline-block;
+  padding: var(--spacing-md) var(--spacing-2xl);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  transition: var(--transition-base);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-primary:active {
+  background-color: var(--color-primary-dark);
+  outline: none !important;
+  box-shadow: none !important;
+  transform: translateY(1px);
+}
+
+.btn-primary:active:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary:focus:not(:active) {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: var(--spacing-md) var(--spacing-2xl);
+  background-color: transparent;
+  color: var(--color-primary);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  transition: var(--transition-base);
+  border: 2px solid var(--color-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn-link {
+  display: inline-block;
+  padding: var(--spacing-md) var(--spacing-2xl);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: var(--font-size-body);
+  transition: var(--transition-base);
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .art-page {
+    padding: var(--spacing-3xl) 0;
+  }
+
+  .page-title {
+    font-size: var(--font-size-h2);
+  }
+
+  .tab-switcher {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tab-btn {
+    width: 100%;
+  }
+
+  .patterns-grid,
+  .techniques-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

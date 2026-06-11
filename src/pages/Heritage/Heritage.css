@@ -1,0 +1,477 @@
+/**
+ * Heritage 传承发展页面样式
+ */
+
+.heritage-page {
+  padding: var(--spacing-5xl) 0;
+  background-color: var(--color-bg-page);
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: var(--spacing-6xl);
+}
+
+.page-title {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.page-subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-4xl);
+  text-align: center;
+}
+
+/* 传承人介绍 */
+.inheritors-section {
+  margin-bottom: var(--spacing-6xl);
+}
+
+.inheritors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--spacing-3xl);
+}
+
+.inheritor-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3xl);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-base);
+}
+
+.inheritor-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.inheritor-avatar {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto var(--spacing-xl);
+  background: linear-gradient(135deg, #ffd89b 0%, #ffecd2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+}
+
+.inheritor-content {
+  text-align: center;
+}
+
+.inheritor-name {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.inheritor-title {
+  font-size: var(--font-size-body);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--spacing-md);
+}
+
+.inheritor-bio {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-base);
+  margin-bottom: var(--spacing-lg);
+  text-align: left;
+}
+
+.inheritor-achievements {
+  margin-bottom: var(--spacing-xl);
+  text-align: left;
+}
+
+.achievements-title {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievements-list li {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xs);
+  padding-left: var(--spacing-lg);
+  position: relative;
+}
+
+.achievements-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+.inheritor-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: var(--spacing-md) var(--spacing-2xl);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: var(--transition-base);
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  position: relative;
+  z-index: 1;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-primary:active {
+  background-color: var(--color-primary-dark);
+  outline: none !important;
+  box-shadow: none !important;
+  transform: translateY(1px);
+}
+
+.btn-primary:active:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary:focus:not(:active) {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.btn-secondary {
+  background-color: var(--color-bg-page);
+  color: var(--color-text-primary);
+  border: 2px solid var(--color-border);
+  position: relative;
+  z-index: 1;
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn-secondary:active {
+  outline: none !important;
+  box-shadow: none !important;
+  transform: translateY(1px);
+}
+
+.btn-secondary:active:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-secondary:focus:not(:active) {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+/* 传承活动 */
+.activities-section {
+  margin-bottom: var(--spacing-6xl);
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+}
+
+.activity-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  transition: var(--transition-base);
+}
+
+.activity-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.activity-image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: var(--radius-md);
+}
+
+.activity-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activity-content {
+  flex: 1;
+  padding: var(--spacing-2xl);
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-meta {
+  display: flex;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+}
+
+.activity-title {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.activity-description {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-base);
+  margin-bottom: var(--spacing-lg);
+  flex: 1;
+}
+
+.activity-tags {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: var(--color-bg-page);
+  color: var(--color-text-secondary);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+}
+
+.btn-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: var(--transition-base);
+  align-self: flex-start;
+}
+
+.btn-link:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+/* 传承成果 */
+.achievements-section {
+  margin-bottom: var(--spacing-6xl);
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-2xl);
+}
+
+.achievement-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3xl);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-base);
+}
+
+.achievement-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.achievement-icon {
+  font-size: 64px;
+  margin-bottom: var(--spacing-lg);
+}
+
+.achievement-title {
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.achievement-value {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.achievement-desc {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+/* 传承计划 */
+.plans-section {
+  margin-bottom: var(--spacing-6xl);
+}
+
+.plans-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+}
+
+.plan-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3xl);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-base);
+}
+
+.plan-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.plan-title {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.plan-status {
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.plan-status.ongoing {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.plan-status.planned {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.plan-status.completed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.plan-description {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-base);
+  margin-bottom: var(--spacing-md);
+}
+
+.plan-timeline {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+  .inheritors-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .achievements-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .activity-card {
+    flex-direction: column;
+  }
+
+  .activity-image {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heritage-page {
+    padding: var(--spacing-3xl) 0;
+  }
+
+  .page-title {
+    font-size: var(--font-size-h2);
+  }
+
+  .inheritors-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .inheritor-actions {
+    flex-direction: column;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+
+  .plan-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+  }
+}
+

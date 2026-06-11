@@ -1,0 +1,161 @@
+/**
+ * 主题变量定义
+ * 哈密刺绣数字图谱 - 设计系统变量
+ */
+
+:root {
+  /* ========== 主色调 ========== */
+  /* 传统红色系 */
+  --color-primary: #C41E3A;
+  --color-primary-dark: #8B1538;
+  --color-primary-light: #E8A5B7;
+  
+  /* 金色系 */
+  --color-gold: #D4AF37;
+  --color-gold-dark: #B8941F;
+  --color-gold-light: #F5E6D3;
+  
+  /* ========== 辅助色 ========== */
+  /* 深蓝色系 */
+  --color-blue-dark: #1A365D;
+  --color-blue: #2C5282;
+  --color-blue-light: #EBF8FF;
+  
+  /* 米白色系 */
+  --color-beige: #F7F5F3;
+  --color-white: #FFFFFF;
+  --color-gray-light: #F0EDE8;
+  
+  /* ========== 功能色 ========== */
+  /* 成功色 */
+  --color-success: #52C41A;
+  --color-success-bg: #F6FFED;
+  
+  /* 警告色 */
+  --color-warning: #FA8C16;
+  --color-warning-bg: #FFF7E6;
+  
+  /* 错误色 */
+  --color-error: #FF4D4F;
+  --color-error-bg: #FFF1F0;
+  
+  /* 信息色 */
+  --color-info: #1890FF;
+  --color-info-bg: #E6F7FF;
+  
+  /* ========== 中性色 ========== */
+  /* 文字颜色 */
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4A4A4A;
+  --color-text-tertiary: #8C8C8C;
+  --color-text-placeholder: #BFBFBF;
+  --color-text-inverse: #FFFFFF;
+  
+  /* 边框颜色 */
+  --color-border: #D9D9D9;
+  --color-border-light: #E8E8E8;
+  --color-border-lighter: #F0F0F0;
+  
+  /* 背景颜色 */
+  --color-bg-page: #F7F5F3;
+  --color-bg-card: #FFFFFF;
+  --color-bg-mask: rgba(0, 0, 0, 0.45);
+  
+  /* ========== 字体系统 ========== */
+  --font-family: 'PingFang SC', 'Microsoft YaHei', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --font-family-mono: 'Consolas', 'Monaco', monospace;
+  
+  /* 字号 */
+  --font-size-h1: 32px;
+  --font-size-h2: 28px;
+  --font-size-h3: 24px;
+  --font-size-h4: 20px;
+  --font-size-h5: 18px;
+  --font-size-h6: 16px;
+  --font-size-body-large: 16px;
+  --font-size-body: 14px;
+  --font-size-body-small: 12px;
+  --font-size-caption: 12px;
+  
+  /* 行高 */
+  --line-height-h1: 48px;
+  --line-height-h2: 42px;
+  --line-height-h3: 36px;
+  --line-height-h4: 30px;
+  --line-height-h5: 27px;
+  --line-height-h6: 24px;
+  --line-height-body-large: 24px;
+  --line-height-body: 22px;
+  --line-height-body-small: 18px;
+  --line-height-caption: 18px;
+  
+  /* 字重 */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* ========== 间距系统 ========== */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 20px;
+  --spacing-2xl: 24px;
+  --spacing-3xl: 32px;
+  --spacing-4xl: 40px;
+  --spacing-5xl: 48px;
+  --spacing-6xl: 64px;
+  --spacing-7xl: 80px;
+  --spacing-8xl: 96px;
+  
+  /* ========== 圆角系统 ========== */
+  --radius-none: 0;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 50%;
+  
+  /* ========== 阴影系统 ========== */
+  --shadow-none: none;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.15);
+  
+  /* ========== 布局系统 ========== */
+  --header-height: 64px;
+  --header-height-mobile: 56px;
+  --container-max-width: 1200px;
+  --container-padding: 32px;
+  --container-padding-mobile: 16px;
+  
+  /* ========== 过渡动画 ========== */
+  --transition-base: all 0.3s ease-in-out;
+  --transition-fast: all 0.15s ease-in-out;
+  --transition-slow: all 0.5s ease-in-out;
+  
+  /* ========== Z-index 层级 ========== */
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-fixed: 1030;
+  --z-index-modal-backdrop: 1040;
+  --z-index-modal: 1050;
+  --z-index-popover: 1060;
+  --z-index-tooltip: 1070;
+  
+  /* ========== 响应式断点 ========== */
+  --breakpoint-mobile: 768px;
+  --breakpoint-tablet: 1024px;
+  --breakpoint-desktop: 1280px;
+}
+
+/* 暗色模式（可选，未来扩展） */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* 暗色模式变量可在此定义 */
+  }
+}
+
