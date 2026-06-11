@@ -121,7 +121,7 @@ const works = [
     theme: '传统',
     style: 'elegant',
     rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/35/600/400',
   },
   {
     id: 2,
@@ -130,7 +130,7 @@ const works = [
     theme: '现代',
     style: 'minimalist',
     rating: 4.6,
-    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/36/600/400',
   },
   {
     id: 3,
@@ -139,7 +139,7 @@ const works = [
     theme: '融合',
     style: 'vibrant',
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/37/600/400',
   },
 ]
 

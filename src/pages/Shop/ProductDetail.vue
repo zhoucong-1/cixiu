@@ -108,9 +108,9 @@
               <h3>商品详情</h3>
               <p>{{ product.description }}</p>
               <div class="detail-images">
-                <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&h=500&fit=crop&auto=format" alt="商品详情图1" class="detail-image" />
-                <img src="https://images.unsplash.com/photo-1605106702734-205df224ecce?w=800&h=500&fit=crop&auto=format" alt="商品详情图2" class="detail-image" />
-                <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&h=500&fit=crop&auto=format" alt="商品详情图3" class="detail-image" />
+                <img src="https://picsum.photos/id/48/800/500" alt="商品详情图1" class="detail-image" />
+                <img src="https://picsum.photos/id/49/800/500" alt="商品详情图2" class="detail-image" />
+                <img src="https://picsum.photos/id/51/800/500" alt="商品详情图3" class="detail-image" />
               </div>
             </div>
 
@@ -174,10 +174,10 @@ const isFavorite = ref(false)
 const activeTab = ref('detail')
 
 const productImages = [
-  'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
-  'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
-  'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format',
-  'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
+  'https://picsum.photos/id/52/600/400',
+  'https://picsum.photos/id/53/600/400',
+  'https://picsum.photos/id/54/600/400',
+  'https://picsum.photos/id/55/600/400',
 ]
 
 const product = {
@@ -200,7 +200,7 @@ const product = {
       options: ['红色', '蓝色', '金色'],
     },
   ],
-  image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
+  image: 'https://picsum.photos/id/56/600/400',
 }
 
 const selectedSpecs = reactive({
@@ -232,8 +232,8 @@ const reviews = [
 ]
 
 const relatedProducts = [
-  { id: 2, title: '现代几何图案', price: 399, image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format' },
-  { id: 3, title: '融合风格作品', price: 499, image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format' },
+  { id: 2, title: '现代几何图案', price: 399, image: 'https://picsum.photos/id/57/600/400' },
+  { id: 3, title: '融合风格作品', price: 499, image: 'https://picsum.photos/id/58/600/400' },
 ]
 
 const decreaseQuantity = () => {

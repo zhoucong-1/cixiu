@@ -170,7 +170,7 @@ const liveStreams = [
     title: '基础针法教学',
     time: '2024-01-20 14:00',
     description: '讲解基础刺绣针法，适合初学者',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/92/600/400',
     isLive: false,
   },
   {
@@ -178,7 +178,7 @@ const liveStreams = [
     title: '传统图案设计',
     time: '直播中',
     description: '现场演示传统图案的设计与绣制',
-    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/93/600/400',
     isLive: true,
   },
 ]

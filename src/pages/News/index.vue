@@ -93,7 +93,7 @@ const newsList = [
     category: '行业动态',
     categoryValue: 'industry',
     date: '2025-05-15',
-    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/83/600/400',
   },
   {
     id: 2,
@@ -102,7 +102,7 @@ const newsList = [
     category: '活动信息',
     categoryValue: 'activity',
     date: '2024-01-10',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/84/600/400',
   },
   {
     id: 3,
@@ -111,7 +111,7 @@ const newsList = [
     category: '政策法规',
     categoryValue: 'policy',
     date: '2024-01-05',
-    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/85/600/400',
   },
   {
     id: 4,
@@ -120,7 +120,7 @@ const newsList = [
     category: '促销信息',
     categoryValue: 'promotion',
     date: '2024-01-01',
-    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/86/600/400',
   },
 ]
 

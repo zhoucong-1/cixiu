@@ -140,19 +140,19 @@ const carouselSlides = [
   {
     title: '哈密刺绣数字图谱',
     description: '传承千年技艺，展现文化魅力',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=450&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/10/800/450',
     link: '/about',
   },
   {
     title: '春季新品限时优惠',
     description: '精选刺绣作品，购买即享8折优惠',
-    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&h=450&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/20/800/450',
     link: '/shop',
   },
   {
     title: '在线学习课程',
     description: '跟随传承人学习传统刺绣技艺',
-    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=800&h=450&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/30/800/450',
     link: '/craft',
   },
 ]
@@ -167,20 +167,20 @@ const recommendArticles = [
   {
     title: '哈密刺绣的历史源流',
     desc: '探索新疆维吾尔族刺绣的起源与发展历程',
-    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/11/600/400',
     badge: '热门',
     link: '/history',
   },
   {
     title: '传统图案的寓意解读',
     desc: '深入了解传统刺绣图案的文化内涵',
-    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/12/600/400',
     link: '/art',
   },
   {
     title: '制作工艺详解',
     desc: '学习传统刺绣的制作流程与技巧',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/13/600/400',
     link: '/craft',
   },
 ]
@@ -189,21 +189,21 @@ const recommendWorks = [
   {
     title: '传统花卉图案',
     desc: '精美的传统花卉刺绣作品',
-    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/21/600/400',
     rating: 4.8,
     link: '/works/1',
   },
   {
     title: '现代几何设计',
     desc: '融合现代设计理念的创新作品',
-    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/22/600/400',
     rating: 4.6,
     link: '/works/2',
   },
   {
     title: '融合风格作品',
     desc: '传统与现代完美结合',
-    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/23/600/400',
     rating: 4.9,
     link: '/works/3',
   },
@@ -213,7 +213,7 @@ const recommendProducts = [
   {
     title: '传统花卉刺绣作品',
     desc: '手工制作，工艺精湛',
-    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/24/600/400',
     price: 299,
     badge: '热销',
     link: '/shop/product/1',
@@ -221,7 +221,7 @@ const recommendProducts = [
   {
     title: '优质刺绣丝线套装',
     desc: '24色真丝线，色彩鲜艳持久',
-    image: 'https://images.unsplash.com/photo-1586075016320-1d14d0c89842?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/25/600/400',
     price: 89,
     badge: '新品',
     link: '/shop/product/4',
@@ -229,7 +229,7 @@ const recommendProducts = [
   {
     title: '定制刺绣服务',
     desc: '根据您的需求定制专属作品',
-    image: 'https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/26/600/400',
     price: 599,
     link: '/shop/product/3',
   },
@@ -262,7 +262,7 @@ const latestNews = [
     excerpt: '哈密刺绣技艺正式入选国家级非物质文化遗产代表性项目名录...',
     category: '行业动态',
     date: '2025-05-15',
-    image: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/31/600/400',
   },
   {
     id: 2,
@@ -270,7 +270,7 @@ const latestNews = [
     excerpt: '一年一度的哈密刺绣文化节将于下月举行...',
     category: '活动信息',
     date: '2024-01-10',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/32/600/400',
   },
   {
     id: 3,
@@ -278,7 +278,7 @@ const latestNews = [
     excerpt: '国家出台新的非物质文化遗产保护政策，加大对传统手工艺的扶持力度。',
     category: '政策法规',
     date: '2024-01-05',
-    image: 'https://images.unsplash.com/photo-1605106702734-205df224ecce?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/33/600/400',
   },
   {
     id: 4,
@@ -286,7 +286,7 @@ const latestNews = [
     excerpt: '春季新品刺绣作品限时优惠，购买即享8折优惠...',
     category: '促销信息',
     date: '2024-01-01',
-    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&h=400&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/34/600/400',
   },
 ]
 
@@ -302,7 +302,7 @@ const prevSlide = () => {
 
 const handleSlideImageError = (e: Event) => {
   const img = e.target as HTMLImageElement
-  img.src = 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800&h=450&fit=crop&auto=format'
+  img.src = 'https://picsum.photos/id/40/800/450'
 }
 
 const handleRecommendClick = (item: any) => {

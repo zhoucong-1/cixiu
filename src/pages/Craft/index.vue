@@ -60,19 +60,19 @@ const materials = [
     name: '优质丝绸',
     description: '选用上等丝绸面料，质地柔软，光泽自然',
     usage: '用于制作高档刺绣作品',
-    image: 'https://images.unsplash.com/photo-1558769202-baf66c8954a3?w=400&h=300&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/56/400/300',
   },
   {
     name: '彩色丝线',
     description: '丰富的色彩选择，色彩鲜艳持久',
     usage: '用于图案绣制',
-    image: 'https://images.unsplash.com/photo-1586075016320-1d14d0c89842?w=400&h=300&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/57/400/300',
   },
   {
     name: '绣绷与工具套装',
     description: '专业绣绷、绣针、剪刀等全套工具，适合各水平学习者使用',
     usage: '用于固定面料和精细操作',
-    image: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=400&h=300&fit=crop&auto=format',
+    image: 'https://picsum.photos/id/58/400/300',
   },
 ]
 

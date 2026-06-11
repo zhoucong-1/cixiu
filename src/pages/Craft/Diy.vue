@@ -5,7 +5,7 @@
         <!-- 顶部主视觉 -->
         <section class="diy-hero">
           <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=400&fit=crop&auto=format" alt="DIY刺绣体验包" />
+            <img src="https://picsum.photos/id/50/1200/400" alt="DIY刺绣体验包" />
           </div>
           <div class="hero-overlay">
             <h1 class="page-title">DIY 体验包</h1>
@@ -16,7 +16,7 @@
         <section class="diy-intro">
           <div class="diy-card">
             <div class="card-image">
-              <img src="https://images.unsplash.com/photo-1586075016320-1d14d0c89842?w=500&h=300&fit=crop&auto=format" alt="体验包内容" />
+              <img src="https://picsum.photos/id/51/500/300" alt="体验包内容" />
             </div>
             <h2 class="section-title">体验包内容</h2>
             <ul class="diy-list">
@@ -28,7 +28,7 @@
           </div>
           <div class="diy-card">
             <div class="card-image">
-              <img src="https://images.unsplash.com/photo-1452421822248-d4c2b9f16dc6?w=500&h=300&fit=crop&auto=format" alt="刺绣体验" />
+              <img src="https://picsum.photos/id/52/500/300" alt="刺绣体验" />
             </div>
             <h2 class="section-title">适合人群</h2>
             <p class="diy-text">
@@ -42,15 +42,15 @@
           <h2 class="gallery-title">完成效果参考</h2>
           <div class="gallery-grid">
             <div class="gallery-item">
-              <img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=350&h=250&fit=crop&auto=format" alt="花卉图案成品" />
+              <img src="https://picsum.photos/id/53/350/250" alt="花卉图案成品" />
               <span class="gallery-label">花卉图案</span>
             </div>
             <div class="gallery-item">
-              <img src="https://images.unsplash.com/photo-1605106702734-205df224ecce?w=350&h=250&fit=crop&auto=format" alt="几何纹样成品" />
+              <img src="https://picsum.photos/id/54/350/250" alt="几何纹样成品" />
               <span class="gallery-label">几何纹样</span>
             </div>
             <div class="gallery-item">
-              <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=350&h=250&fit=crop&auto=format" alt="动物图案成品" />
+              <img src="https://picsum.photos/id/55/350/250" alt="动物图案成品" />
               <span class="gallery-label">动物图案</span>
             </div>
           </div>
