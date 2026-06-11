@@ -21,22 +21,27 @@ const cartState = reactive({
 
 // 从 localStorage 恢复购物车数据
 const loadCartFromStorage = () => {
+  if (typeof window === 'undefined') return
   try {
-    const saved = localStorage.getItem('cixiu_cart')
+    const saved = window.localStorage.getItem('hami-cart')
     if (saved) {
-      cartState.items = JSON.parse(saved)
+      const parsed = JSON.parse(saved)
+      if (Array.isArray(parsed)) {
+        cartState.items = parsed
+      }
     }
-  } catch (e) {
-    console.error('加载购物车数据失败:', e)
+  } catch {
+    // 忽略解析错误，使用空购物车
   }
 }
 
 // 保存购物车数据到 localStorage
 const saveCartToStorage = () => {
+  if (typeof window === 'undefined') return
   try {
-    localStorage.setItem('cixiu_cart', JSON.stringify(cartState.items))
-  } catch (e) {
-    console.error('保存购物车数据失败:', e)
+    window.localStorage.setItem('hami-cart', JSON.stringify(cartState.items))
+  } catch {
+    // 忽略存储错误（如 localStorage 已满）
   }
 }
 
