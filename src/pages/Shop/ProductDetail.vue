@@ -108,9 +108,9 @@
               <h3>商品详情</h3>
               <p>{{ product.description }}</p>
               <div class="detail-images">
-                <img src="https://picsum.photos/id/24/800/500" alt="商品详情图1" class="detail-image" />
-                <img src="https://picsum.photos/id/25/800/500" alt="商品详情图2" class="detail-image" />
-                <img src="https://picsum.photos/id/26/800/500" alt="商品详情图3" class="detail-image" />
+                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidered%20product%20detail%20photo%201%20close-up%20of%20stitching%20quality%20craftsmanship&image_size=landscape_16_9" alt="商品详情图1" class="detail-image" />
+                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidered%20product%20detail%20photo%202%20showing%20pattern%20design%20full%20view&image_size=landscape_16_9" alt="商品详情图2" class="detail-image" />
+                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidered%20product%20detail%20photo%203%20usage%20scene%20lifestyle%20display&image_size=landscape_16_9" alt="商品详情图3" class="detail-image" />
               </div>
             </div>
 
@@ -174,10 +174,10 @@ const isFavorite = ref(false)
 const activeTab = ref('detail')
 
 const productImages = [
-  'https://picsum.photos/id/27/600/400',
-  'https://picsum.photos/id/28/600/400',
-  'https://picsum.photos/id/29/600/400',
-  'https://picsum.photos/id/31/600/400',
+  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?traditional%20floral%20embroidery%20product%20main%20image%20front%20view%20showcase&image_size=landscape_4_3',
+  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidery%20product%20side%20angle%20view%20showing%20edges%20and%20detail&image_size=landscape_4_3',
+  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidery%20product%20back%20view%20showing%20full%20pattern%20coverage&image_size=landscape_4_3',
+  'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?embroidery%20product%20detail%20shot%20texture%20and%20material%20close-up&image_size=landscape_4_3',
 ]
 
 const product = {
@@ -200,7 +200,7 @@ const product = {
       options: ['红色', '蓝色', '金色'],
     },
   ],
-  image: 'https://picsum.photos/id/32/600/400',
+  image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?main%20product%20image%20traditional%20floral%20embroidered%20work%20high%20quality&image_size=landscape_4_3',
 }
 
 const selectedSpecs = reactive({
@@ -232,8 +232,8 @@ const reviews = [
 ]
 
 const relatedProducts = [
-  { id: 2, title: '现代几何图案', price: 399, image: 'https://picsum.photos/id/33/600/400' },
-  { id: 3, title: '融合风格作品', price: 499, image: 'https://picsum.photos/id/34/600/400' },
+  { id: 2, title: '现代几何图案', price: 399, image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?related%20modern%20geometric%20embroidery%20product%20alternative%20choice&image_size=landscape_4_3' },
+  { id: 3, title: '融合风格作品', price: 499, image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?related%20fusion%20style%20embroidery%20product%20recommended%20item&image_size=landscape_4_3' },
 ]
 
 const decreaseQuantity = () => {

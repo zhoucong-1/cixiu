@@ -121,7 +121,7 @@ const works = [
     theme: '传统',
     style: 'elegant',
     rating: 4.8,
-    image: 'https://picsum.photos/id/35/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?traditional%20flower%20pattern%20embroidery%20artwork%20peonies%20roses%20colorful%20silk%20masterpiece&image_size=landscape_4_3',
   },
   {
     id: 2,
@@ -130,7 +130,7 @@ const works = [
     theme: '现代',
     style: 'minimalist',
     rating: 4.6,
-    image: 'https://picsum.photos/id/36/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?modern%20geometric%20design%20embroidery%20contemporary%20abstract%20patterns%20symmetric%20art&image_size=landscape_4_3',
   },
   {
     id: 3,
@@ -139,7 +139,7 @@ const works = [
     theme: '融合',
     style: 'vibrant',
     rating: 4.9,
-    image: 'https://picsum.photos/id/37/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?fusion%20style%20embroidery%20artwork%20blending%20traditional%20modern%20innovative%20design&image_size=landscape_4_3',
   },
 ]
 

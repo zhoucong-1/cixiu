@@ -60,19 +60,19 @@ const materials = [
     name: '优质丝绸',
     description: '选用上等丝绸面料，质地柔软，光泽自然',
     usage: '用于制作高档刺绣作品',
-    image: 'https://picsum.photos/id/71/400/300',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=premium%20quality%20silk%20fabric%20for%20embroidery%20smooth%20shiny%20texture%20natural%20material&image_size=landscape_4_3',
   },
   {
     name: '彩色丝线',
     description: '丰富的色彩选择，色彩鲜艳持久',
     usage: '用于图案绣制',
-    image: 'https://picsum.photos/id/72/400/300',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=colorful%20embroidery%20silk%20thread%20skeins%20rainbow%20colors%20vibrant%20bright%20craft%20supplies&image_size=landscape_4_3',
   },
   {
     name: '绣绷与工具套装',
     description: '专业绣绷、绣针、剪刀等全套工具，适合各水平学习者使用',
     usage: '用于固定面料和精细操作',
-    image: 'https://picsum.photos/id/73/400/300',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=embroidery%20hoop%20tool%20set%20wooden%20frame%20needles%20scissors%20professional%20equipment%20kit&image_size=landscape_4_3',
   },
 ]
 

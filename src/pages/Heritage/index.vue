@@ -146,7 +146,7 @@ const activities = [
     description: '面向全疆的刺绣技艺培训班，邀请国家级传承人授课，培养新一代传承人。',
     date: '2025-10-15',
     location: '哈密市文化中心',
-    image: 'https://picsum.photos/id/74/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=embroidery%20training%20class%20workshop%20instructor%20teaching%20students%20cultural%20heritage&image_size=landscape_4_3',
     tags: ['培训', '传承', '教育'],
   },
   {
@@ -155,7 +155,7 @@ const activities = [
     description: '组织传承人走进中小学校园，向学生展示和传授传统刺绣技艺。',
     date: '2026-04-20',
     location: '哈密市各中小学',
-    image: 'https://picsum.photos/id/75/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=traditional%20crafts%20in%20school%20children%20learning%20embroidery%20education%20outreach%20program&image_size=landscape_4_3',
     tags: ['教育', '推广', '青少年'],
   },
   {
@@ -164,7 +164,7 @@ const activities = [
     description: '在各地举办刺绣作品展览，展示传承成果，推广刺绣文化。',
     date: '2026-05-10',
     location: '乌鲁木齐、北京、上海',
-    image: 'https://picsum.photos/id/76/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=embroidery%20art%20exhibition%20gallery%20display%20touring%20showcase%20textile%20masterpieces&image_size=landscape_4_3',
     tags: ['展览', '推广', '文化交流'],
   },
 ]

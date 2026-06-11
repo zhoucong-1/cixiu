@@ -93,7 +93,7 @@ const newsList = [
     category: '行业动态',
     categoryValue: 'industry',
     date: '2025-05-15',
-    image: 'https://picsum.photos/id/11/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?national%20intangible%20heritage%20Hami%20embroidery%20award%20ceremony&image_size=landscape_4_3',
   },
   {
     id: 2,
@@ -102,7 +102,7 @@ const newsList = [
     category: '活动信息',
     categoryValue: 'activity',
     date: '2024-01-10',
-    image: 'https://picsum.photos/id/12/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?splendid%20Hami%20embroidery%20cultural%20festival%20celebration%20event%20colorful%20scene&image_size=landscape_4_3',
   },
   {
     id: 3,
@@ -111,7 +111,7 @@ const newsList = [
     category: '政策法规',
     categoryValue: 'policy',
     date: '2024-01-05',
-    image: 'https://picsum.photos/id/13/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?new%20cultural%20heritage%20protection%20policy%20announcement%20document%20official%20press&image_size=landscape_4_3',
   },
   {
     id: 4,
@@ -120,7 +120,7 @@ const newsList = [
     category: '促销信息',
     categoryValue: 'promotion',
     date: '2024-01-01',
-    image: 'https://picsum.photos/id/14/600/400',
+    image: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?spring%20sale%20promotion%20new%20embroidery%20products%20discount&image_size=landscape_4_3',
   },
 ]
 
